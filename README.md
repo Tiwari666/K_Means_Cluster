@@ -58,8 +58,7 @@ Social network analysis
 Example:
 Using K-Means clustering to segment customers based on purchasing behavior.
 
-# 
-Association
+# Association
 
 Association, often referred to as association rule learning, is a technique used to find interesting relationships (associations) between variables in large datasets.
 
