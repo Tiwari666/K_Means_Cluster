@@ -27,7 +27,7 @@ Weaknesses: Performance can be affected by the choice of parameters; less effect
 --------------------------------------------------------------------------------------------------------
 Clustering and association are both important techniques in data mining and machine learning, but they serve different purposes and are used in different contexts. Here’s a detailed comparison of the two:
 
-#Clustering
+# Clustering
 
 Clustering is a technique used to group a set of objects in such a way that objects in the same group (called a cluster) are more similar to each other than to those in other groups (clusters).
 
@@ -58,7 +58,8 @@ Social network analysis
 Example:
 Using K-Means clustering to segment customers based on purchasing behavior.
 
-#Association
+# 
+Association
 
 Association, often referred to as association rule learning, is a technique used to find interesting relationships (associations) between variables in large datasets.
 
