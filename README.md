@@ -95,3 +95,38 @@ Using the Apriori algorithm to find that customers who buy bread often also buy 
 ![image](https://github.com/user-attachments/assets/843f4047-23d6-4e76-bba9-5d004595e32c)
 
 In summary, clustering is about grouping similar data points together, while association is about finding relationships and patterns between different items within a dataset.
+
+-----------------------------EXAMPLE OF CLUSTERING AND ASSOCIATION-----------------------------------
+# Clustering
+
+Clustering is the process of segregating a large number of items into smaller groups, or clusters, where items in each group share similar characteristics.
+
+Example:
+Imagine we have a list of all the people in Asia. We can cluster them based on their nationalities:
+
+Group 1: People belonging to India
+Group 2: People belonging to China
+Group 3: People belonging to Nepal
+Group 4: People belonging to Japan
+In this example, people within each group share the characteristic of their nationality. Clustering helps us organize this vast dataset into smaller, more manageable groups.
+
+# Association Rule Mining
+
+Association rule mining is the process of identifying the degree of association between two or more items. It involves finding interesting relationships, patterns, or associations among sets of items in large datasets.
+
+Example:
+Consider a grocery store scenario where we want to understand customer buying patterns. We observe the following transactions:
+
+Transaction 1: Bread, Jam
+Transaction 2: Bread, Butter
+Transaction 3: Milk, Bread, Butter
+Transaction 4: Milk, Bread, Jam
+Transaction 5: Book, Biscuit
+From this data, we can derive association rules such as:
+
+Rule 1: If a customer buys Bread, there is a high probability they will also buy Jam. (Bread -> Jam)
+Rule 2: If a customer buys Bread, there is a high probability they will also buy Butter. (Bread -> Butter)
+These rules indicate that Bread and Jam or Bread and Butter are closely associated items. Conversely, if a customer buys a Book, it is unlikely they will also buy a Biscuit (Book -> Biscuit), indicating a low degree of association between these items.
+
+Application:
+These kinds of associations can be identified using association rule mining techniques like the Apriori algorithm, helping businesses understand customer behavior and optimize inventory and marketing strategies.
